@@ -1,0 +1,2 @@
+(this["webpackJsonpcrab-home-v2"]=this["webpackJsonpcrab-home-v2"]||[]).push([[13],{971:function(e,s,c){"use strict";c.r(s);var n=c(0),t=c(2);class r extends n.Component{render(){return Object(t.jsx)("div",{className:"App",children:Object(t.jsx)("div",{children:"Not found"})})}}s.default=r}}]);
+//# sourceMappingURL=13.985f6877.chunk.js.map
