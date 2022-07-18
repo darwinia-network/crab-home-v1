@@ -415,7 +415,7 @@ const PloContribute = () => {
       <div className={cx("magic-01")} />
       <div className={cx("magic-02")} />
 
-      <div className={cx("rewards-time-notice")}>
+      <div className={cx("rewards-time-notice")} style={{ display: 'none' }}>
         <img alt="..." src={crabRewardsNoticeIcon} />
         <div className={cx("rewards-time-notice-content")}>
           <p>
@@ -435,7 +435,7 @@ const PloContribute = () => {
         </div>
       </div>
 
-      <div className="container">
+      <div className="container" style={{ marginTop: '1rem' }}>
         {/* Heading */}
         <div className={cx("heading-container")} data-aos="fade-right" data-aos-duration="500">
           <div className={cx("heading-container-logo")}>
