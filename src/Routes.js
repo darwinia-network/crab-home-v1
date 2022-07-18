@@ -8,14 +8,16 @@ const AsyncGrants = asyncComponent(import("./page/Grants"));
 const AsyncNotFound = asyncComponent(import("./page/NotFound"));
 const AsyncPloContribute = asyncComponent(import("./page/PloContribute"));
 
+const prefix = "/crab-home-v1";
+
 export default function router() {
   return (
     <Switch>
-      <Route exact component={AsyncHome} path="/" />
-      <Route exact component={AsyncEconomic} path="/economic" />
-      <Route exact component={AsyncPlo} path="/plo" />
-      <Route exact component={AsyncGrants} path="/grants" />
-      <Route exact component={AsyncPloContribute} path="/plo_contribute" />
+      <Route exact component={AsyncHome} path={`${prefix}/`} />
+      <Route exact component={AsyncEconomic} path={`${prefix}/economic`} />
+      <Route exact component={AsyncPlo} path={`${prefix}/plo`} />
+      <Route exact component={AsyncGrants} path={`${prefix}/grants`} />
+      <Route exact component={AsyncPloContribute} path={`${prefix}/plo_contribute`} />
       <Route component={AsyncNotFound} />
     </Switch>
   );

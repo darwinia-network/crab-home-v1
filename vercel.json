@@ -23,10 +23,10 @@
     }
   ],
   "rewrites": [
-    { "source": "/economic", "destination": "/index.html" },
-    { "source": "/plo", "destination": "/index.html" },
-    { "source": "/grants", "destination": "/index.html" },
-    { "source": "/plo_contribute", "destination": "/index.html" }
+    { "source": "/crab-home-v1/economic", "destination": "/index.html" },
+    { "source": "/crab-home-v1/plo", "destination": "/index.html" },
+    { "source": "/crab-home-v1/grants", "destination": "/index.html" },
+    { "source": "/crab-home-v1/plo_contribute", "destination": "/index.html" }
   ]
 }
 
