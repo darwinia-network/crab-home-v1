@@ -8,7 +8,7 @@ const AsyncGrants = asyncComponent(import("./page/Grants"));
 const AsyncNotFound = asyncComponent(import("./page/NotFound"));
 const AsyncPloContribute = asyncComponent(import("./page/PloContribute"));
 
-const prefix = "/crab-home-v1";
+export const prefix = "/crab-home-v1";
 
 export default function router() {
   return (

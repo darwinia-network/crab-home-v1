@@ -2,6 +2,8 @@ import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
 import { PloBanner } from "../../components/PloBanner";
 
+import { prefix } from '../../Routes';
+
 function Home() {
   return (
     <>
@@ -16,7 +18,7 @@ function Home() {
             <div className="col-12 col-md-7 order-md-2">
               {/*  Image */}
               <img
-                src="../../img/illustrations/illustration-1.png"
+                src={`../..${prefix}/img/illustrations/illustration-1.png`}
                 className="img-fluid mb-6 mb-md-0"
                 alt="..."
                 data-aos="fade-up"
@@ -70,7 +72,7 @@ function Home() {
               <div className="row align-items-center mb-8">
                 <div className="col-4 col-lg-5">
                   {/*  Image */}
-                  <img src="../../img/illustrations/illustration-4.png" alt="..." className="img-fluid" />
+                  <img src={`../..${prefix}/img/illustrations/illustration-4.png`} alt="..." className="img-fluid" />
                 </div>
                 <div className="col-8 col-lg-7">
                   {/*  Heading */}
@@ -88,7 +90,7 @@ function Home() {
               <div className="row align-items-center mb-8">
                 <div className="col-4 col-lg-5">
                   {/*  Image */}
-                  <img src="../../img/illustrations/illustration-8.png" alt="..." className="img-fluid" />
+                  <img src={`../..${prefix}/img/illustrations/illustration-8.png`} alt="..." className="img-fluid" />
                 </div>
                 <div className="col-8 col-lg-7">
                   {/*  Heading */}
@@ -108,7 +110,7 @@ function Home() {
               <div className="row align-items-center mb-8">
                 <div className="col-4 col-lg-5">
                   {/*  Image */}
-                  <img src="../../img/illustrations/illustration-7.png" alt="..." className="img-fluid" />
+                  <img src={`../..${prefix}/img/illustrations/illustration-7.png`} alt="..." className="img-fluid" />
                 </div>
                 <div className="col-8 col-lg-7">
                   {/*  Heading */}
@@ -126,7 +128,7 @@ function Home() {
               <div className="row align-items-center mb-8">
                 <div className="col-4 col-lg-5">
                   {/*  Image */}
-                  <img src="../../img/illustrations/illustration-6.png" alt="..." className="img-fluid" />
+                  <img src={`../..${prefix}/img/illustrations/illustration-6.png`} alt="..." className="img-fluid" />
                 </div>
                 <div className="col-8 col-lg-7">
                   {/*  Heading */}
@@ -153,7 +155,7 @@ function Home() {
             <div className="row align-items-center">
               <div className="col-12 col-md-5 col-lg-6 order-md-1">
                 <img
-                  src="../../img/illustrations/illustration-2.png"
+                  src={`../..${prefix}/img/illustrations/illustration-2.png`}
                   className="img-fluid mw-md-100 mw-lg-100 mb-6 mb-md-0"
                   alt="..."
                 />
@@ -213,7 +215,7 @@ function Home() {
                 {/* Logo */}
                 <div className="img-fluid mb-5 mb-md-6 svg-shim">
                   {/* {{> logotype/airbnb}} */}
-                  <img src="../../img/crab/crab.png" alt="CRAB TOKEN" width="120px" />
+                  <img src={`../..${prefix}/img/crab/crab.png`} alt="CRAB TOKEN" width="120px" />
                 </div>
 
                 {/* Text */}
@@ -239,7 +241,7 @@ function Home() {
                 {/* Logo*/}
                 <div className="img-fluid mb-5 mb-md-6 svg-shim">
                   {/* {{> logotype/coinbase}} */}
-                  <img src="../../img/crab/ckton.png" alt="CKTON TOKEN" width="120px" />
+                  <img src={`../..${prefix}/img/crab/ckton.png`} alt="CKTON TOKEN" width="120px" />
                 </div>
 
                 {/* Text*/}

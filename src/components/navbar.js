@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 
+import { prefix } from '../Routes';
+
 function Navbar({ classList, container, button }) {
   return (
     <nav className={`navbar navbar-expand-lg ${classList}`}>
       <div className={container}>
         {/*  Brand */}
         <Link className="navbar-brand" to="/">
-          <img src="../img/brand.svg" className="navbar-brand-img" alt="..." />
+          <img src={`..${prefix}/img/brand.svg`} className="navbar-brand-img" alt="..." />
         </Link>
 
         {/*  Toggler */}

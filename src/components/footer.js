@@ -1,3 +1,5 @@
+import { prefix } from '../Routes';
+
 function Footer({ classList, container, button }) {
   return (
     <footer className={`py-8 py-md-11 ${classList}`} data-aos="fade-up" data-aos-duration="500">
@@ -5,7 +7,7 @@ function Footer({ classList, container, button }) {
         <div className="row">
           <div className="col-12 col-md-4 col-lg-3">
             {/* Brand*/}
-            <img src="../img/brand.svg" alt="..." className="footer-brand img-fluid mb-2" width="90px" />
+            <img src={`..${prefix}/img/brand.svg`} alt="..." className="footer-brand img-fluid mb-2" width="90px" />
 
             {/* Text*/}
             <p className="text-gray-700 mb-2">A better way to build.</p>
@@ -19,7 +21,7 @@ function Footer({ classList, container, button }) {
                   href="mailto:hello@crab.network"
                   className="text-decoratiResourceson-none"
                 >
-                  <img src="../img/icons/social/mail.svg" className="list-social-icon" alt="..." />
+                  <img src={`..${prefix}/img/icons/social/mail.svg`} className="list-social-icon" alt="..." />
                 </a>
               </li>
               <li className="list-inline-item list-social-item me-3">
@@ -29,7 +31,7 @@ function Footer({ classList, container, button }) {
                   href="https://t.me/DarwiniaNetwork"
                   className="text-decoration-none"
                 >
-                  <img src="../img/icons/social/twitter.svg" className="list-social-icon" alt="..." />
+                  <img src={`..${prefix}/img/icons/social/twitter.svg`} className="list-social-icon" alt="..." />
                 </a>
               </li>
               <li className="list-inline-item list-social-item me-3">
@@ -39,7 +41,7 @@ function Footer({ classList, container, button }) {
                   href="https://medium.com/@DarwiniaNetwork"
                   className="text-decoration-none"
                 >
-                  <img src="../img/icons/social/medium.svg" className="list-social-icon" alt="..." />
+                  <img src={`..${prefix}/img/icons/social/medium.svg`} className="list-social-icon" alt="..." />
                 </a>
               </li>
               <li className="list-inline-item list-social-item">
@@ -49,7 +51,7 @@ function Footer({ classList, container, button }) {
                   href="https://github.com/darwinia-network/darwinia/tree/master/runtime/crab"
                   className="text-decoration-none"
                 >
-                  <img src="../img/icons/social/github.svg" className="list-social-icon" alt="..." />
+                  <img src={`..${prefix}/img/icons/social/github.svg`} className="list-social-icon" alt="..." />
                 </a>
               </li>
             </ul>
