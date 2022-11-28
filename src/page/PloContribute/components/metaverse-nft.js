@@ -301,7 +301,7 @@ const MetaverseNFT = ({ myTotalContribute, currentAccount }) => {
 };
 
 const client = new ApolloClient({
-  uri: "https://api.subquery.network/sq/JayJay1024/crab-nft",
+  uri: "https://api.subquery.network/sq/hhhx2048/crab-nft",
   cache: new InMemoryCache(),
 });
 
