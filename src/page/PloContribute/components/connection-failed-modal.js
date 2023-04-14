@@ -11,7 +11,7 @@ const ConnectionFailedModal = ({ showConnectionFailedModal = false, onCancel = (
     <Modal
       className={cx("connection-failed-modal")}
       centered
-      visible={showConnectionFailedModal}
+      open={showConnectionFailedModal}
       footer={null}
       title="Connection failed"
       closable={true}

@@ -127,7 +127,7 @@ function BTCReward({ currentAccount }) {
       </div>
 
       <Modal
-        visible={visible === 1}
+        open={visible === 1}
         title={
           <Title level={5} style={{ textAlign: "center" }}>
             Claim BTC
@@ -208,7 +208,7 @@ function BTCReward({ currentAccount }) {
       </Modal>
 
       <Modal
-        visible={visible === 2}
+        open={visible === 2}
         title={
           <Title level={5} style={{ textAlign: "center" }}>
             Copy that!

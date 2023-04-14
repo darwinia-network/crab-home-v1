@@ -8,8 +8,6 @@ import { ApiPromise, WsProvider } from "@polkadot/api";
 import { toShortAddress } from "../utils/tools";
 import { formatKSMBalance } from "../page/Plo/utils";
 
-import { typesBundleForPolkadot } from "@darwinia/types/mix";
-
 const AccountItem = (props) => {
   const {
     account,
@@ -163,11 +161,6 @@ const PolkadotConnect = (props) => {
 
     ApiPromise.create({
       provider: wsProvider,
-      typesBundle: {
-        spec: {
-          Crab: typesBundleForPolkadot.spec.darwinia,
-        },
-      },
     })
       .then((papi) => {
         api.current = papi;

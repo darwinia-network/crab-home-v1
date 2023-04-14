@@ -192,7 +192,7 @@ const MetaverseNFT = ({ myTotalContribute, currentAccount }) => {
       </div>
 
       <Modal
-        visible={visibleModalCopyThat}
+        open={visibleModalCopyThat}
         title={null}
         footer={null}
         onCancel={() => setVisibleModalCopyThat(false)}
@@ -227,7 +227,7 @@ const MetaverseNFT = ({ myTotalContribute, currentAccount }) => {
         </div>
       </Modal>
       <Modal
-        visible={visibleModalClaimNFT}
+        open={visibleModalClaimNFT}
         title={null}
         footer={null}
         onCancel={() => setVisibleModalClaimNFT(false)}
