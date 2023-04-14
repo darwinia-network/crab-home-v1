@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcrab_home_v2=self.webpackChunkcrab_home_v2||[]).push([[863],{8863:(e,s,n)=>{n.r(s),n.d(s,{default:()=>d});var r=n(72791),c=n(80184);class a extends r.Component{render(){return(0,c.jsx)("div",{className:"App",children:(0,c.jsx)("div",{children:"Not found"})})}}const d=a}}]);
+//# sourceMappingURL=863.f0b4dd17.chunk.js.map
