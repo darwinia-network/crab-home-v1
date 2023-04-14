@@ -933,7 +933,7 @@ const PloContribute = () => {
 
       <Modal
         className={cx("transaction-in-progress-modal")}
-        visible={showTransactionInProgress}
+        open={showTransactionInProgress}
         footer={null}
         title={null}
         closable={true}
@@ -948,7 +948,7 @@ const PloContribute = () => {
 
       <Modal
         className={cx("select-account-modal")}
-        visible={showSelectAccountModal}
+        open={showSelectAccountModal}
         footer={null}
         title="Select an Account"
         closable={true}
@@ -973,7 +973,7 @@ const PloContribute = () => {
 
       <Modal
         className={cx("thanks-for-support-modal")}
-        visible={showThanksForSupportModal}
+        open={showThanksForSupportModal}
         onCancel={() => setShowThanksForSupportModal(false)}
         title={null}
         footer={null}

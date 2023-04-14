@@ -25,7 +25,7 @@ const MobileModal = () => {
 
   return (
     <Modal
-      visible={visible}
+      open={visible}
       footer={null}
       closeIcon={<img alt="..." src={closeIcon} style={{ width: "40px" }} />}
       onCancel={handleClickClose}
